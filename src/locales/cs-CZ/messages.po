@@ -8,7 +8,7 @@ msgstr ""
 "Language: cs_CZ\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-05-04 22:52\n"
+"PO-Revision-Date: 2021-05-05 10:54\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
@@ -41,11 +41,11 @@ msgstr "O Chia Blockchainu"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
-msgstr "Potrvdit"
+msgstr "Potvrdit"
 
 #: src/components/trading/TradingOverview.jsx:230
 msgid "Accepted at time:"
-msgstr "Přijato v čase:"
+msgstr "Přijato kdy:"
 
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
@@ -73,7 +73,7 @@ msgstr "Přidat pole do fronty"
 
 #: src/components/wallet/Wallets.tsx:83
 msgid "Add Wallet"
-msgstr "Přidat Peněženku"
+msgstr "Přidat peněženku"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:35
 #: src/components/plot/PlotHeader.tsx:33
@@ -188,7 +188,7 @@ msgstr "VDF iterace bloku"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Blok ve výšce {0} v Chia blockchainu"
+msgstr "Blok v Chia blockchainu ve výšce {0}"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -253,7 +253,7 @@ msgstr "Zrušit a Utratit"
 
 #: src/components/plot/PlotsNotFound.tsx:26
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
-msgstr "Pozor, smazání těchto polí je odstraní navždy. Zkontrolujte, zda jsou paměťová zařízení správně připojena."
+msgstr "Pozor, smazání těchto polí je nevratné. Zkontrolujte, zda jsou paměťová zařízení správně připojena."
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:13
 msgid "Challenge"
@@ -277,7 +277,7 @@ msgstr "Chia Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Chia Peněženka"
+msgstr "Chia peněženka"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -335,7 +335,7 @@ msgstr "Potvrdit odpojení"
 
 #: src/components/trading/TradingOverview.jsx:202
 msgid "Confirmed at block:"
-msgstr "Potvrzený 1 blok:"
+msgstr "Potvrzeno v bloku:"
 
 #: src/components/wallet/WalletHistory.tsx:40
 msgid "Confirmed at height {0}"
@@ -394,7 +394,7 @@ msgstr "Kopírovat"
 
 #: src/components/core/components/CopyToClipboard/CopyToClipboard.tsx:23
 msgid "Copy to Clipboard"
-msgstr "Skopírovat"
+msgstr "Zkopírovat do schránky"
 
 #: src/components/backup/BackupCreate.tsx:70
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
@@ -422,7 +422,7 @@ msgstr "Vytvořit limitovanou administrátorskou peněženku"
 
 #: src/components/wallet/create/createRLUser.jsx:78
 msgid "Create Rate Limited User Wallet"
-msgstr "Vytvořit limitovanou administrátorskou peněženku"
+msgstr "Vytvořit limitovanou uživatelskou peněženku"
 
 #: src/components/trading/TradeManager.tsx:22
 #~ msgid "Create Trade"
@@ -448,7 +448,7 @@ msgstr "Vytvořit nový privátní klíč"
 
 #: src/components/wallet/create/WalletCreate.jsx:244
 msgid "Create admin wallet"
-msgstr "Vytvořit peněženku správce"
+msgstr "Vytvořit administrátorskou peněženku"
 
 #: src/components/wallet/create/WalletCreate.jsx:180
 msgid "Create new coloured coin"
@@ -456,7 +456,7 @@ msgstr "Vytvořit novou barevnou minci"
 
 #: src/components/wallet/create/WalletCreate.jsx:256
 msgid "Create user wallet"
-msgstr "Vytvořit peněženku uživatele"
+msgstr "Vytvořit uživatelskou peněženku"
 
 #: src/components/wallet/create/createExistingColouredCoin.jsx:95
 msgid "Create wallet for colour"
@@ -472,7 +472,7 @@ msgstr "Vytvořit peněženku pro stávající barvu"
 
 #: src/components/trading/TradingOverview.jsx:188
 msgid "Created At:"
-msgstr "Vytvořeno na:"
+msgstr "Vytvořeno v:"
 
 #: src/components/trading/TradingOverview.jsx:214
 msgid "Created by us:"
@@ -606,7 +606,7 @@ msgstr "Chyba"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Chyba: Nelze odeslat chia na barevnou adresu. Zadejte prosím adresu chia."
+msgstr "Chyba: Chia nelze odeslat na barevnou adresu. Zadejte prosím běžnou Chia adresu."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -632,7 +632,7 @@ msgstr "Vynechat cílovou složku"
 
 #: src/components/plot/PlotsFailed.tsx:24
 msgid "Failed to open (invalid plots)"
-msgstr "Nepodařilo se otevřít (neplatné pole)"
+msgstr "Nepodařilo se otevřít (neplatná pole)"
 
 #: src/components/dashboard/DashboardSideBar.tsx:26
 #: src/components/wallet/coloured/WalletColoured.tsx:430
@@ -729,7 +729,7 @@ msgstr "Dokončeno"
 
 #: src/electron/main.tsx:351
 msgid "Follow on Twitter"
-msgstr "Sledujte nás na Twitter"
+msgstr "Sledovat na Twitteru"
 
 #: src/electron/main.tsx:318
 msgid "Frequently Asked Questions"
@@ -754,7 +754,7 @@ msgstr "Generovat novou barvu"
 
 #: src/components/wallet/standard/WalletStandard.tsx:367
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
-msgstr "HD nebo Hierarchické Deterministické klíče jsou typ veřejného klíče/soukromého klíče, kde jeden soukromý klíč může mít téměř nekonečný počet různých veřejných klíčů (a tam pro příjem adres peněženky), které se nakonec vrátí k jedinému soukromému klíči a budou jej utrácet."
+msgstr "HD nebo Hierarchické Deterministické klíče jsou typy veřejného/soukromého klíče, kde jeden soukromý klíč může mít téměř nekonečný počet různých veřejných klíčů (a tedy i příchozích adres peněženky), které se nakonec vrátí k jedinému soukromému klíči a mohou tak být utraceny."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Harvester ID"
@@ -863,7 +863,7 @@ msgstr "Klíče"
 #: src/components/farm/FarmFullNodeConnections.tsx:40
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:40
 msgid "KiB Up/Down"
-msgstr "KiB nahráno/staženo"
+msgstr "MiB odesláno/přijato"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:37
 msgid "Last Attempted Proof"
@@ -939,7 +939,7 @@ msgstr "Cílové adresy odměn z farmaření"
 
 #: src/components/fullNode/FullNodeConnections.tsx:43
 msgid "MiB Up/Down"
-msgstr "MiB nahráno/staženo"
+msgstr "MiB odesláno/přijato"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:60
 msgid "Minutes"
@@ -1690,15 +1690,15 @@ msgstr "Tato funkce je dostupná pouze v grafickém rozhraní."
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr ""
+msgstr "Chia zůstatek využitelný pro transakce. Neobsahuje nezpracované odměny za farmaření, nezpracované příchozí transakce a ani převody, které ještě nebyly zaneseny do blockchainu."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
-msgstr ""
+msgstr "Dosud nezpracovaná změna vlastního převodu, která ještě nebyla potvrzena."
 
 #: src/components/wallet/standard/WalletStandard.tsx:223
 msgid "This is the sum of the incoming and outgoing pending transactions (not yet included into the blockchain). This does not include farming rewards."
-msgstr ""
+msgstr "Souhrn příchozích a odchozích nezpracovaných změn (zatím nejsou obsaženy v blockchainu). Neobsahuje odměny za farmaření."
 
 #: src/components/fullNode/FullNode.jsx:173
 msgid "This is the time of the latest peak sub block."
@@ -2009,11 +2009,11 @@ msgstr "Vaše sklízecí síť"
 
 #: src/util/getDescriptiveError.ts:4
 msgid "[Error 13] Permission denied. You are trying to access a file/directory without having the necessary permissions. Most likely one of the plot folders in your config.yaml has an issue."
-msgstr ""
+msgstr "[Chyba 13] Přístup odepřen. Snažíte se o přístup k souboru/složce bez patřičných oprávnění. Jedna ze složek polí v konfiguraci má pravděpodobně potíže."
 
 #: src/util/getDescriptiveError.ts:7
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
-msgstr ""
+msgstr "[Chyba 22] Soubor nenalezen. Jedna ze složek polí v konfiguraci má pravděpodobně potíže."
 
 #: src/components/wallet/WalletStatusCard.tsx:30
 #: src/components/wallet/Wallets.tsx:121
