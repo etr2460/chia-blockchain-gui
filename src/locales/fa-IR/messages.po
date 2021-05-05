@@ -8,7 +8,7 @@ msgstr ""
 "Language: fa_IR\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-05-05 04:49\n"
+"PO-Revision-Date: 2021-05-05 16:54\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -51,17 +51,17 @@ msgstr "پذیرش شده در زمان:"
 #: src/components/plot/PlotsNotFound.tsx:14
 #: src/components/plot/overview/PlotOverviewPlots.tsx:69
 msgid "Action"
-msgstr "اقدام"
+msgstr "عملیات"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:43
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:43
 #: src/components/fullNode/FullNodeConnections.tsx:57
 msgid "Actions"
-msgstr "عملیات"
+msgstr "عملیات ها"
 
 #: src/components/trading/CreateOffer.jsx:222
 msgid "Add"
-msgstr "اضافه کردن"
+msgstr "افزودن"
 
 #: src/components/plot/PlotHeader.tsx:51
 msgid "Add Plot Directory"
@@ -2018,7 +2018,7 @@ msgstr ""
 #: src/components/wallet/WalletStatusCard.tsx:30
 #: src/components/wallet/Wallets.tsx:121
 msgid "connections:"
-msgstr ""
+msgstr "اتصال ها:"
 
 #: src/components/wallet/WalletStatusCard.tsx:24
 #: src/components/wallet/Wallets.tsx:115
@@ -2037,7 +2037,7 @@ msgstr "وضعیت:"
 #: src/components/wallet/WalletStatusCard.tsx:19
 #: src/components/wallet/Wallets.tsx:107
 msgid "synced"
-msgstr ""
+msgstr "همگام سازی شده"
 
 #: src/components/wallet/WalletStatusCard.tsx:19
 #: src/components/wallet/Wallets.tsx:105
@@ -2054,13 +2054,13 @@ msgstr "در حال همگام سازی"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:18
 msgid "{currencyCode} Block Rewards"
-msgstr ""
+msgstr "{currencyCode} جایزه بلوک"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
 msgid "{currencyCode} Total Chia Farmed"
-msgstr ""
+msgstr "{currencyCode} مجموع چیا برداشت شده"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"
-msgstr ""
+msgstr "{currencyCode} کارمزد معامله کاربر"
 
